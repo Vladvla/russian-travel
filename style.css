@@ -1,0 +1,187 @@
+  .page {
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: inter, sans-serif;
+    background: #2A2C2F;
+  }
+
+  .link {
+    transition: 1s;
+  }
+      
+  .link:hover {
+    opacity: .5;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 28px 48px 0 48px;
+  }
+
+  .header__logo {
+    margin: 0;
+    padding: 0;
+    max-width: 176px;
+    max-height: 52px;
+  }
+  .header__links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header__links:last-child {
+    margin: 0;
+  }
+
+  .header__link-container {
+    margin: 0;
+    margin-right: 18px;
+  }
+
+  .header__link-container:last-child {
+      margin: 0;
+  }
+
+  .header__link-lang {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .header__link-lang:active {
+    text-decoration: underline;
+  }
+
+  .lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 56px 148px 0 148px;
+  }
+
+  .lead__title {
+    width: 720px;
+    height: 200px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .lead__subtitle {
+    width: 640px;
+    height: 72px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 64px;
+  }
+
+  .lead__pic {
+    max-width: 984px;
+    max-height: 615px;
+  }
+
+  .lead__caption {
+    display: flex;
+    margin: 0;
+    max-width: 158px;
+    max-height: 14px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex-wrap: nowrap;
+  } /*Добрый день, не понимаю почему текст выглядит не так как на макете*/
+
+  .intro {
+    margin: 0;
+    max-width: 690px;
+    max-height: 429px;
+    padding: 92px 442px 0 148px;
+  }
+
+  .intro__title {
+    max-width: 690px;
+    max-height: 58px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+
+  .intro__paragraph {
+    max-width: 690px;
+    max-height: 208px; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    color: #FFFFFF;
+    margin: 40px 0 33px 0;
+  }
+
+  .intro__list {
+    display: flex;
+    flex-flow: wrap column;
+    list-style-type: none;
+    max-width: 690px;
+    max-height: 90px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .intro__list_item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 6px;
+    color: #FFFFFF;
+    margin: 0;
+  }/*Добрый день, не понимаю почему текст выглядит не так как на макете*/
+
+  .photo {
+    margin: 0;
+    display: grid;
+    justify-content: center;
+  }
+
+  .photo__list {
+    max-width: 1184px;
+    max-height: 671px;
+    justify-items: center;
+    margin: 92px 48px 0 48px;
+    display: grid;
+    grid-template-columns: 25% repeat(3, 1fr);
+    grid-template-rows: 33% repeat(2, 1fr);
+    gap: 16px;
+    list-style-type: none;
+  }
+
+  .photo__item {
+    margin: 0;
+  }
