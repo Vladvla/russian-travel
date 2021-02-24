@@ -110,7 +110,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 14px;
+  line-height: 1.4;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -118,10 +118,9 @@
 } /*Добрый день, не понимаю почему текст выглядит не так как на макете*/
 
 .intro {
-  margin: 0;
+  margin: 92px auto;
   max-width: 690px;
   max-height: 429px;
-  padding: 92px 442px 0 148px;
 }
 
 .intro__title {
@@ -151,7 +150,7 @@
   flex-flow: wrap column;
   list-style-type: none;
   max-width: 690px;
-  max-height: 90px;
+  max-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -160,15 +159,16 @@
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
-  line-height: 6px;
+  line-height: 0.6;
   color: #FFFFFF;
   margin: 0;
-}/*Добрый день, не понимаю почему текст выглядит не так как на макете*/
+}
 
 .photo {
   margin: 0;
   display: grid;
   justify-content: center;
+  margin-top: 92px;
 }
 
 .photo__list {
@@ -202,12 +202,24 @@
 
 .places__list {
   list-style-type: none;
+  padding: 0;
 }
 
 .places__list-blocks {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  width: 984px;
+  height: 660px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.places__list-blocks:last-of-type {
+  margin: 0;
+}
+
+.places__list-blocks-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .places__list-blocks-title {
@@ -216,15 +228,17 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: .95;
   color: #FFFFFF;
   margin: 0;
+  margin-bottom: 48px;
 }
 
-.Places__image {
+.places__image {
 }
 
 .places__links {
+  margin: 106px 0 48px 0;
 }
 
 .places__link-pointer {
@@ -237,19 +251,20 @@
   letter-spacing: 0.2em;
   color: #AAAAAA;
   margin: 0;
+  margin-bottom: 12px;
 }
 
 .places__link {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   text-decoration-line: underline;
   color: #FFFFFF;
   margin: 0;
 }
 
-.places__paragraph-first {
+.places__paragraph {
   width: 484px;
   font-style: normal;
   font-weight: normal;
@@ -259,12 +274,96 @@
   margin: 0;
 }
 
-.places__paragraph-second {
-  width: 484px;
+.cover {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 92px auto 92px;
+}
+
+.cover__link {
+  position: relative;
+  height: 740px;
+  width: 1184px;
+  background: url(images/cover-image.png);
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__overlay {
+  position: absolute;
+  background: #2A2C2F;
+  opacity: .3;
+  transition: 1s;
+}
+
+.cover__overlay:hover {
+  opacity: .6;
+}
+
+.cover__title {
+  width: 560px;
+  height: 152px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.05;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 10;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.cover__subtitle {
+  width: 360px;
+  height: 66px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.22;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 10;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1184px;
+  margin: 0 auto 24px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-around;
+  width: 602px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.125;
+  color: #FFFFFF;
+}
+
+.footer__author {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.125;
+  text-align: right;
   color: #FFFFFF;
   margin: 0;
 }
