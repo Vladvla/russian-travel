@@ -40,8 +40,6 @@
 
 @import url(../blocks/photo/photo.css);
 
-@import url(../blocks/photo/__list/photo__list.css);
-
 @import url(../blocks/photo/__image/photo__image.css);
 
 @import url(../blocks/places/places.css);

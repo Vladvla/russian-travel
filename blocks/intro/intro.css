@@ -1,26 +1,28 @@
 .intro {
   display: flex;
   flex-direction: column;
-  margin: 92px auto 92px 148px;
+  max-width: 1005px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 92px;
 }
   
 @media screen and (max-width: 1200px) {
   .intro {
-    margin: 92px auto 92px 48px;
+    max-width: 962px;
   }
 }
 
 @media screen and (max-width: 920px) {
   .intro {
-    margin: 88px auto;
-    max-width: 720px;
+    margin: 88px 24px;
   } 
 }
 
 @media screen and (max-width: 600px){
   .intro {
     margin: 64px 16px;
-    width: 287px;
-    height: 754px;
+    max-width: 320px;
+    min-height: 754px;
   }
 } 

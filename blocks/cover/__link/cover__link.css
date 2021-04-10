@@ -1,6 +1,7 @@
 .cover__link {
-  height: 740px;
-  width: 1184px;
+  min-height: 740px;
+  width: 100%;
+  background-size: cover;
   position: relative;
   background: url(../../../images/cover-background.png);
   background-repeat: no-repeat;
@@ -33,22 +34,18 @@
 
 @media screen and (max-width: 1200px) {
   .cover__link {
-    height: 640px;
-    width: 1024px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 920px) {
   .cover__link {
-    height: 480px;
-    width: 768px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 600px){
   .cover__link {
-    background-size: cover;
-    width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }

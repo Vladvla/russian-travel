@@ -1,7 +1,6 @@
 .footer__links {
   display: flex;
-  justify-content: space-around;
-  width: 602px;
+  width: 100%;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -9,13 +8,9 @@
 
 @media screen and (max-width: 600px){
   .footer__links {
-    display: flex;
     flex-direction: column;
-    max-width: 186px;
-    height: 248px;
+    min-height: 248px;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
   }
 }

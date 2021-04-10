@@ -15,3 +15,9 @@
   }
 }
 
+@media screen and (max-width: 600px){
+  .places__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+} 
