@@ -1,4 +1,5 @@
 .photo {
+  max-width: 1184px;
   margin: 92px auto;
   display: grid;
   justify-content: center;
@@ -16,6 +17,7 @@
   
 @media screen and (max-width: 1200px) {
   .photo {
+    max-width: 928px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 14px;
@@ -24,6 +26,7 @@
   
 @media screen and (max-width: 920px) {
   .photo {
+    max-width: 720px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }

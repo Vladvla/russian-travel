@@ -5,24 +5,23 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 92px;
-
 }
   
 @media screen and (max-width: 1200px) {
   .intro {
-    max-width: 962px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 920px) {
   .intro {
-    margin: 88px 24px;
+    max-width: 720px;
   } 
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
   .intro {
-    margin: 64px 16px;
+    margin: 64px auto;
     max-width: 320px;
   }
 } 

@@ -2,12 +2,10 @@
   display: flex;
   flex-flow:column;
   list-style-type: none;
-  width: 288px;
+  max-width: 320px;
   margin: 0;
   padding: 0;
   color: #FFF;
   font-size: 12px;
   line-height: 18px;
 }
-  
-  
