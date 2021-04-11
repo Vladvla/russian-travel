@@ -11,12 +11,12 @@
     margin-bottom: 64px;
   }
   
-@media screen and (max-width: 600px){
+@media screen and (max-width: 750px){
   .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;
-    margin: 16px 16px 40px;
+    margin: 16px auto 40px;
   }
 }    
     

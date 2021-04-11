@@ -10,18 +10,5 @@
   text-transform: uppercase;
   color: #FFF;
   flex-wrap: nowrap;
-}
-
-@media screen and (max-width: 920px) {
-  .lead__caption {
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 600px){
-  .lead__caption {
-    margin-left: 16px;
-  }
-}
-      
+} 
   
