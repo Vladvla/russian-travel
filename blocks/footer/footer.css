@@ -16,6 +16,12 @@
   }
 }
 
+@media screen and (max-width: 1020px) {
+  .footer {
+    justify-content: space-around;
+  }
+}
+
 @media screen and (max-width: 650px){
   .footer {
     max-width: 304px;

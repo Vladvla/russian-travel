@@ -6,7 +6,7 @@
   grid-gap: 48px 40px;
   grid-template-areas: "title url"
   "image par";
-  margin: 0 0 80px;
+  margin: 0 auto 80px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -14,7 +14,7 @@
     max-width: 928px;
     grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
-    margin: 0 0 84px;
+    margin: 0 auto 84px;
   }
 }
 
@@ -22,7 +22,7 @@
   .places__block {
     max-width: 720px;
     grid-template-columns: 340px 1fr;
-    margin: 0 0 72px;
+    margin: 0 auto 72px;
   }
 }
 
@@ -34,6 +34,6 @@
     "par";
     grid-template-columns: 1fr;
     grid-gap: 32px;
-    margin: 0 0 48px;
+    margin: 0 auto 48px;
   }
 }
